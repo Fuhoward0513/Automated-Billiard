@@ -49,7 +49,7 @@ Get the intrinstic matrix and the distortion factor
 
 ![](https://i.imgur.com/Ao856mV.png)
 
-## Ball Detection and Algorithm
+### Ball Detection and Algorithm
 #### 1. 1. Take color image (color.png) and depth image (config/depth.npy)
 ```
 align_depth2color.take_pic()
@@ -66,7 +66,7 @@ test_undistort.undistort()
 
 > :bulb: Note: the obvious black lines around the picture are the consequence of the correction of distortion
 
-### 3. Image noise reduction with applying Mask and Opening(morphology)
+#### 3. Image noise reduction with applying Mask and Opening(morphology)
 a. Apply green mask to the color image(bitwise_and)
 
 ![](https://i.imgur.com/9Cuwfs7.jpg)
@@ -79,7 +79,7 @@ c. Apply opening to reduce the image noise and save the image(mask.png)
 ![](https://i.imgur.com/Q6XhKqb.png)
 
 
-### 4. Find the Holes of the table (config/hole.txt)
+#### 4. Find the Holes of the table (config/hole.txt)
 Applying Hough Circle Transformation to find the coordinates of the table holes from the mask.png
 Find Holes coordinates of the table with Hough Circle Transformation
 ```
@@ -87,12 +87,12 @@ findHole_new.findHole()
 ```
 ![](https://i.imgur.com/8DHfp1q.png)
 
-### 5. Simple Object Detection with Tensorflow to classify balls as Cue ball and others
+#### 5. Simple Object Detection with Tensorflow to classify balls as Cue ball and others
 
 ![](https://i.imgur.com/EydDtA3.jpg)
 
 
-### 6. Find Balls coordinates(config/white_pixel.txt, config/ball_pixel.txt)
+#### 6. Find Balls coordinates(config/white_pixel.txt, config/ball_pixel.txt)
 ```
 hough_circle_test.findBall()
 ```
@@ -105,7 +105,7 @@ b. Apply Hough Circle Transformation to find the balls' coordinates
 ![](https://i.imgur.com/NgupYDi.jpg)
 
 
-### 7. Apply Billiard Ball Strategy Algorithm to find optimal solution
+#### 7. Apply Billiard Ball Strategy Algorithm to find optimal solution
 ```
 num_ball, isConvex = hit_ball_strategy.hit_ball_strategy()
 ```
@@ -115,7 +115,7 @@ The best solution to the case will be visualize on the image.
 
 ![](https://i.imgur.com/CBxhUng.jpg)
 
-### 6. Coordinate Transformation from Image Coordinate to Robot Base Coordinate(World Coordinate) and Hit the Ball !
+#### 8. Coordinate Transformation from Image Coordinate to Robot Base Coordinate(World Coordinate) and Hit the Ball !
 The coordinate of the cue ball(image coordinate) will be transformed into Robot-Base coordinate, and the manipulator will hit the ball with the Pneumatic cylinder.
 ```
 coordinate_transformation.coordinate_transformation(num_ball, isConvex)

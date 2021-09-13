@@ -1,0 +1,15 @@
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest.csprojAssemblyReference.cache
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\MainWindow.g.cs
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\App.g.cs
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest_MarkupCompile.cache
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest_MarkupCompile.lref
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\bin\Debug\HIWIN_Contest.exe.config
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\bin\Debug\HIWIN_Contest.exe
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\bin\Debug\HIWIN_Contest.pdb
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\MainWindow.baml
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest.g.resources
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest.Properties.Resources.resources
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest.csproj.GenerateResource.cache
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest.csproj.CoreCompileInputs.cache
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest.exe
+C:\Users\Rubio\Desktop\HIWIN_Contest\HIWIN_Contest\obj\Debug\HIWIN_Contest.pdb

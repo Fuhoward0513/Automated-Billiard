@@ -36,18 +36,16 @@ Connect to the manipulator and turn on the "SMON"
 #### 2. Execute camera_eye_hand.py
 Pose controlling Robot Manipulator to take pictures of “ChAruco Board” 
 
-![](https://i.imgur.com/t8YxIbG.png)
+![](https://i.imgur.com/b2jgcDK.png)
 
-![](https://i.imgur.com/b0GYvXi.png)
-
-![](https://i.imgur.com/eL36ibr.png)
 
 #### 3. Pose estimation to “ChAruco Board” and apply hand-eye calibration with OpenCV
 Get the extrinstic matrix between the end-effector and the camera
 #### 4. Get intristic camera matrix with OpenCV
 Get the intrinstic matrix and the distortion factor
 
-![](https://i.imgur.com/Ao856mV.png)
+![](https://i.imgur.com/U7LCE9E.png)
+
 
 ### Ball Detection and Algorithm
 #### 1. 1. Take color image (color.png) and depth image (config/depth.npy)

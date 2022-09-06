@@ -1,6 +1,14 @@
 # Automated Billiard Project
 ![](https://i.imgur.com/vIP16V4.png)
 
+
+## :mag_right: Demonstration
+
+### To see the details of our program and the demonstration video, you can click the web address blow !
+
+:point_right: Our Yutube Channel:  https://youtu.be/1msCYlrSwBo
+
+
 ## :star: Project Description
 ### Automated Billiard Ball Machine Implemented with Manipulator and 3D Computer-Vision in High Accuracy:
 Create a system combined with manipulator and depth-camera to play billiard ball automatically. The system includes Image-processing (Mask, Opening, Hough Circle Transformation) and AI (Simple Object Detection with Tensorflow) to apply object detection, Robot-Vision (Camera Calibration, Hand-Eye Calibration),Algorithm designed by ourselves to find the optimal solution to win the game, and Manipulator Kinematics to apply coordinate transformation.
@@ -122,10 +130,5 @@ coordinate_transformation.coordinate_transformation(num_ball, isConvex)
 
 
 
-## :mag_right: Demonstration
-
-### To see the details of our program and the demonstration video, you can click the web address blow !
-
-:point_right: Our Yutube Channel:  https://youtu.be/1msCYlrSwBo
 
 
